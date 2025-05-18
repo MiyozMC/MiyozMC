@@ -1,69 +1,67 @@
-# 眠悠子Miyoz の 黑科技实验室 ✨
+# 🛸 ${"Miyoz::class"}
 
-```diff
-+ 正在构造量子编程领域 | 学生の奇妙物语 | 次元裂缝观测者 +
+```kotlin
+object CyberDev : Developer(
+    name = "眠悠子Miyoz", 
+    languages = listOf(
+        "图形化魔法 ✨", 
+        "Java ☕ (BETA)", 
+        "Nukkit咒语 📜",
+        "论坛炼金术 🧪"
+    ),
+    favorite = "Bug生成与消除术",
+    github = "Miyoz"
+) {
+    
+    // 量子调试器正在运行...
+    override fun toString(): String = buildString {
+        appendln("⚡ 核心协议: ${super.toString()}")
+        appendln("🔮 特殊技能: 将咖啡因转化为代码")
+        appendln("💥 当前状态: ${if (Random.nextBoolean()) "编译中" else "运行时异常"}")
+    }
+}
+
+fun main() = CyberDev.also { println(it) }
 ```
 
-## 🌀 核心协议加载中...
+## 🖥️ 终端输出
+```diff
++ ⚡ 核心协议: Hello, my name is 眠悠子Miyoz.
++    I am skilled in: 图形化魔法 ✨, Java ☕ (BETA), Nukkit咒语 📜, 论坛炼金术 🧪
++    My favorite language is Bug生成与消除术
++    GitHub: Miyoz
++ 🔮 特殊技能: 将咖啡因转化为代码
++ 💥 当前状态: 运行时异常
+```
 
-```java
-// 非典型学生开发者协议 v2.33
-public class Miyoz {
-    static String[] specialties = {
-        "图形化魔法(Pro Max++)", 
-        "Java炼金术( brewing... )",
-        "Nukkit维度管理",
-        "论坛生态构建"
-    };
-    
-    public static void main(String[] args) {
-        while(alive()) {
-            try {
-                hackReality();
-            } catch (BugException e) {
-                // 自动触发反bug力场
-                summonCreativeSolution();
-            }
-        }
-    }
+## 📊 量子态统计矩阵
+[![${name}的次元波动](
+https://github-readme-stats.vercel.app/api?username=MiyozMC&show_icons=true&theme=dracula&include_all_commits=true
+)](https://github.com/MiyozMC)
+[![语言粒子分布](
+https://github-readme-stats.vercel.app/api/top-langs/?username=MiyozMC&layout=compact&theme=radical&hide=html,css
+)](https://github.com/MiyozMC)
+
+## 🧪 实验室公告
+```prolog
+/* 非确定性事实 */
+?- current_project(X).
+X = nukkit_server_quantum_edition ;
+X = graphical_bug_alchemy ;
+X = forum_paradox_generator.
+
+?- next_skill_to_learn(Y).
+% 系统提示: 答案在观测后坍缩
+```
+
+## 🚀 星际通讯
+```typescript
+interface CyberPortals {
+    discord?: "眠悠子#量子态",
+    bilibili?: "空间折叠中...",
+    email?: "miyoz@${Math.random() > 0.5 ? 'proton' : 'gmail'}.com"
 }
 ```
 
-## 🌌 技能树（量子态）
-
-| 技能领域          | 掌握度                          | 特殊效果                  |
-|-------------------|---------------------------------|--------------------------|
-| 图形化编程        | ██████████ [MAX]           | 可视觉化编译反物质        |
-| Java              | ███░░░░░░░ [35%]           | 偶尔召唤出λ表达式精灵     |
-| Nukkit开服        | ██████░░░░ [60%]           | 生成随机维度异常          |
-| 论坛开发          | █████░░░░░ [50%]           | 自动生成社区悖论          |
-
-## ⚡ 近期实验日志
-
-```diff
-! 警告：以下内容包含不确定性量子表述
-```
-
-- 🔮 成功将图形化bug转化为特性 (2023.11.33)
-- ☕ Java泛型在第十维度产生有趣的分形反应
-- � 发现Nukkit插件与古老咒语的兼容性问题
-- 💥 论坛数据库意外连接到平行宇宙版本
-
-## 🌠 混沌理论宣言
-
-> "遇到的每个bug都是来自计算机之神的礼物"  
-> "我编写的代码在观测前同时处于正确和错误状态"  
-> "服务器崩溃只是另一种形式的重启"  
-
-## 📡 跨维度通讯
-
-[量子纠缠邮箱](1544517326@qq.com)  
-[异次元论坛](https://bbs.nukkit-mot.com)  
-[平行宇宙GitHub](https://github.com/MiyozMC)
-
-```kotlin
-/* 免责声明：本README.md文件在您阅读时可能已经发生坍缩 */
-```
-
-> 最后编译时间: ${new Date().toLocaleString()}  
-> 编译环境: ${System.getProperty("java.version")} (with ✨magic✨)
+> 最后更新于: ${new Date().toLocaleString()}  
+> 编译环境: Kotlin ${System.getProperty("kotlin.version")} (附带量子插件)
