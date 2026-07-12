@@ -1,6 +1,6 @@
-# NemoCat纱猫
+# ShiinaHikari - 椎名光璃
 
-屑猫又在摸鱼了~
+神秘
 
 [![Stats](
 https://github-readme-stats.vercel.app/api?username=MiyozMC&show_icons=true&theme=dracula&include_all_commits=true
